@@ -1,0 +1,134 @@
+body {
+    font-family: "Alice", serif;
+    background-color: green;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 50px;
+}
+
+p {
+    font-size: x-large;
+    text-align: center;
+}
+
+#paragraph {
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+}
+
+#input-placeholder {
+    font-size: medium;
+    text-align: center;
+    font-style: italic;
+}
+
+button {
+    cursor: pointer;
+}
+
+#container-layout {
+    display: flex;
+    justify-content: center;
+}
+
+/* container das caixas resultado e escolha um nº */
+#container-duo {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+#choose-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* caixa (resultado) */
+#result {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    padding-right: 50px;
+    gap: 10px;
+}
+
+#result p {
+    margin: 0;
+}
+
+/* caixa de texto */
+#under-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/*caixa envolvendo input e button */
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+    padding-bottom: 20px;
+    width: 500px;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    background-color: green;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+    align-self: center;
+}
+
+input:focus {
+    border-color: rgb(243, 106, 9);
+}
+
+input::placeholder {
+    color: #fff4f4;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px green inset;
+    -webkit-text-fill-color: #ffffff;
+}
+
+button {
+    padding: 10px 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(2, 85, 2);
+    transform: scale(1.02);
+}
