@@ -114,7 +114,7 @@ input:focus {
 }
 
 input::placeholder {
-    color: #fff4f4;
+    color: #e2e1e1;
 }
 
 input:-webkit-autofill {
